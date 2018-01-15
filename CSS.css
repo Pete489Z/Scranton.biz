@@ -1,0 +1,81 @@
+
+		* {text-align:center;color: white; 
+		}
+		
+		/*<meta name="viewport" content="width=device-width, initial-scale=1">*/
+		
+		.nav {
+			list-style: none;
+			margin: 0px;
+			font-size: 23px;
+			font-family: "Verdana";
+			padding: 0px;
+			border: 0px;
+			white-space:nowrap; /*doesn't work?*/
+		}
+		
+		.button {
+			display:block;
+			float: left;
+			width: 100px;
+			height: 60px;
+			text-decoration:none;
+		/*centering*/
+			text-align: center;
+			vertical-align: middle;
+			line-height: 60px;       /* the same as div height */
+			
+		}
+		
+		.button:hover {
+			Background:white;
+			color:black;
+		}
+			
+		.navbar {
+			background-color: #F44336;
+			box-shadow: 0px 0px 20px 0.5px black;
+			height: 60px;
+			display: inline-block;
+			width: 100%;
+			
+			
+
+		}
+		
+		
+		body {background-color: gray; margin: 0px;}
+		p {text-indent: 50px;}
+		
+		.left_align {text-align:left;}
+		.more_margin {max-width:800px; margin: auto;}
+
+		.hovercolor:hover {
+			background: red;
+		}
+		.hovercolor:active {
+			background: blue;
+		}
+		
+
+	
+		
+			
+		/*
+		body {
+			background-image: url("https://yt3.ggpht.com/-Fxz-T9iM-2Y/AAAAAAAAAAI/AAAAAAAAAAA/TXtqX1zAur0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg");
+			background-size: 5px;
+		}
+		*/
+		
+		/* Theme from w3chools */
+		
+		
+		/*<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >    /*mobile accessibility */
+		/*<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+		*/
+		
+		
+		
+		
