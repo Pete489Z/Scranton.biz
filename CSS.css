@@ -1,5 +1,5 @@
 
-		* {text-align:center;color: white; 
+		* {text-align:center;color: black; 
 		}
 		
 		/*<meta name="viewport" content="width=device-width, initial-scale=1">*/
@@ -20,20 +20,24 @@
 			width: 100px;
 			height: 60px;
 			text-decoration:none;
+			padding: 0px 20px;
 		/*centering*/
 			text-align: center;
 			vertical-align: middle;
 			line-height: 60px;       /* the same as div height */
 			
 		}
+		.button-logo {
+			padding: 0px;
+		}
 		
 		.button:hover {
-			Background:white;
-			color:black;
+			Background: #0083ED;
+			color:white;
 		}
 			
 		.navbar {
-			background-color: #F44336;
+			background-color: #008DFF;/*#F44336;*/
 			box-shadow: 0px 0px 20px 0.5px black;
 			height: 60px;
 			display: inline-block;
@@ -44,8 +48,16 @@
 		}
 		
 		
-		body {background-color: gray; margin: 0px;}
+		body {
+			background: linear-gradient(to bottom, #ffffff 10%, #008dff 100%);
+			margin: 0px;
+			}
 		p {text-indent: 50px;}
+		
+		/*Styling for nice material design sections*/
+		.section {
+			background-color: ;
+		}
 		
 		.left_align {text-align:left;}
 		.more_margin {max-width:800px; margin: auto;}
