@@ -17,7 +17,6 @@
 		.button {
 			display:block;
 			float: left;
-			width: 100px;
 			height: 60px;
 			text-decoration:none;
 			padding: 0px 20px;
@@ -42,19 +41,30 @@
 			height: 60px;
 			display: inline-block;
 			width: 100%;
-			
-			
-
 		}
-		
-		
+		.center {
+			margin: auto;
+			width: 50%;
+			border: 3px solid green;
+			padding: 10px;
+		}
 		body {
-			background: linear-gradient(to bottom, #ffffff 10%, #008dff 100%);
+			background: white; /*offwhite-> #F4EBF5;*/ /*linear-gradient(to bottom, #ffffff 10%, #008dff 100%);*/
 			margin: 0px;
 			}
 		p {text-indent: 50px;}
 		
 		/*Styling for nice material design sections*/
+		
+		.title {
+			width:25%;
+			margin-left: 35%;
+			Background: #008DFF;
+			padding: 10px 30px;
+			box-shadow: 0px 0px 10px 0.25px black;
+			font-family: "Verdana";
+			
+		}
 		.section {
 			background-color: ;
 		}
