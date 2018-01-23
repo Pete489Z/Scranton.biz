@@ -7,8 +7,9 @@
 		.nav {
 			list-style: none;
 			margin: 0px;
-			font-size: 23px;
-			font-family: "Verdana";
+			font-size: 27px;
+			/*font-family: "Verdana";*/
+			font-family: tw-cen-mt; 
 			padding: 0px;
 			border: 0px;
 			white-space:nowrap; /*doesn't work?*/
@@ -56,13 +57,20 @@
 		
 		/*Styling for nice material design sections*/
 		
+		@font-face {
+			font-family: tw-cen-mt;
+			src: url(TCM_____.TTF);
+}
+
 		.title {
 			width:25%;
 			margin-left: 35%;
 			Background: #008DFF;
 			padding: 10px 30px;
 			box-shadow: 0px 0px 10px 0.25px black;
-			font-family: "Verdana";
+			font-family: tw-cen-mt; 
+			font-weight: normal;
+			color: white;
 			
 		}
 		.section {
