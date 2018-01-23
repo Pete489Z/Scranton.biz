@@ -1,20 +1,20 @@
 
-		* {text-align:center;color: black; 
+		* {text-align:center;color: black;
 		}
-		
-		/*<meta name="viewport" content="width=device-width, initial-scale=1">*/
-		
+
+		/*Mobile friendly-> <meta name="viewport" content="width=device-width, initial-scale=1">*/
+
 		.nav {
 			list-style: none;
 			margin: 0px;
 			font-size: 27px;
 			/*font-family: "Verdana";*/
-			font-family: tw-cen-mt; 
+			font-family: tw-cen-mt;
 			padding: 0px;
 			border: 0px;
 			white-space:nowrap; /*doesn't work?*/
 		}
-		
+
 		.button {
 			display:block;
 			float: left;
@@ -25,17 +25,17 @@
 			text-align: center;
 			vertical-align: middle;
 			line-height: 60px;       /* the same as div height */
-			
+
 		}
 		.button-logo {
 			padding: 0px;
 		}
-		
+
 		.button:hover {
 			Background: #0083ED;
 			color:white;
 		}
-			
+
 		.navbar {
 			background-color: #008DFF;/*#F44336;*/
 			box-shadow: 0px 0px 20px 0.5px black;
@@ -54,9 +54,9 @@
 			margin: 0px;
 			}
 		p {text-indent: 50px;}
-		
+
 		/*Styling for nice material design sections*/
-		
+
 		@font-face {
 			font-family: tw-cen-mt;
 			src: url(TCM_____.TTF);
@@ -68,15 +68,15 @@
 			Background: #008DFF;
 			padding: 10px 30px;
 			box-shadow: 0px 0px 10px 0.25px black;
-			font-family: tw-cen-mt; 
+			font-family: tw-cen-mt;
 			font-weight: normal;
 			color: white;
-			
+
 		}
 		.section {
 			background-color: ;
 		}
-		
+
 		.left_align {text-align:left;}
 		.more_margin {max-width:800px; margin: auto;}
 
@@ -86,26 +86,21 @@
 		.hovercolor:active {
 			background: blue;
 		}
-		
 
-	
-		
-			
+
+
+
 		/*
 		body {
 			background-image: url("https://yt3.ggpht.com/-Fxz-T9iM-2Y/AAAAAAAAAAI/AAAAAAAAAAA/TXtqX1zAur0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg");
 			background-size: 5px;
 		}
 		*/
-		
+
 		/* Theme from w3chools */
-		
-		
+
+
 		/*<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >    /*mobile accessibility */
 		/*<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
 		*/
-		
-		
-		
-		
