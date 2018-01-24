@@ -62,12 +62,11 @@
 		body {
 			background: white; /*offwhite-> #F4EBF5;*/ /*linear-gradient(to bottom, #ffffff 10%, #008dff 100%);*/
 			margin: 0px;
-			background-image: url("img/Electric City Sign - black.png");
-			background-repeat: no-repeat;
+			background-image: url("img/Electric City Sign - blacklong.png");
+			background-repeat: repeat-y;
 			background-position: center;
+}
 
-
-			}
 		p {text-indent: 50px;}
 
 		/*Styling for nice material design sections*/
@@ -86,8 +85,18 @@
 			font-family: tw-cen-mt;
 			font-weight: normal;
 			color: white;
-
+}
+		.tile {
+			width:40%;
+			margin-left: 35%;
+			Background: white;
+			padding: 50px 30px;
+			box-shadow: 0px 0px 10px 0.25px black;
+			color: black;
 		}
+
+
+
 		.section {
 			background-color: ;
 		}
