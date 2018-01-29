@@ -59,6 +59,17 @@
 			border: 3px solid green;
 			padding: 10px;
 		}
+
+		.profile{
+			width: 15%;
+			height: auto;
+			box-shadow: 0px 0px 5px 0.25px black;
+			float: right;
+			max-height: 100px;
+			max-width: 100px;
+
+
+		}
 		body {
 			background: white; /*offwhite-> #F4EBF5;*/ /*linear-gradient(to bottom, #ffffff 10%, #008dff 100%);*/
 			margin: 0px;
@@ -86,6 +97,10 @@
 			font-weight: normal;
 			color: white;
 }
+		.title.gov{
+			margin:auto;
+			width:50%;
+		}
 		.tile {
 			width:40%;
 			margin-left: 35%;
@@ -95,11 +110,6 @@
 			color: black;
 		}
 
-
-
-		.section {
-			background-color: ;
-		}
 
 		.left_align {text-align:left;}
 		.more_margin {max-width:800px; margin: auto;}
