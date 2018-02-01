@@ -67,7 +67,12 @@
 			float: right;
 			max-height: 100px;
 			max-width: 100px;
+		}
 
+		.flag{
+			width: 200px;
+			height: auto;
+			box-shadow: 0px 0px 5px 0.25px black;
 
 		}
 		body {
@@ -100,6 +105,8 @@
 		.title.gov{
 			margin:auto;
 			width:50%;
+			text-align: center;
+			vertical-align: middle;
 		}
 		.tile {
 			width:40%;
