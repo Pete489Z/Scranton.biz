@@ -56,7 +56,7 @@
 		.center {
 			margin: auto;
 			width: 50%;
-			border: 3px solid green;
+			/*border: 3px solid green;*/
 			padding: 10px;
 		}
 
@@ -101,6 +101,8 @@
 			font-family: tw-cen-mt;
 			font-weight: normal;
 			color: white;
+			margin-top: 0;
+			border-top: 50px;
 }
 		.title.gov{
 			margin:auto;
@@ -115,11 +117,13 @@
 			padding: 50px 30px;
 			box-shadow: 0px 0px 10px 0.25px black;
 			color: black;
+
 		}
 
 
 		.left_align {text-align:left;}
 		.more_margin {max-width:800px; margin: auto;}
+		.autowidth{width: auto;}
 
 		.hovercolor:hover {
 			background: red;
@@ -128,6 +132,15 @@
 			background: blue;
 		}
 
+		.wall{
+			position: relative;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-image: url("img/courthouse.png");
+			padding-top: 30px;
+
+		}
 
 
 
